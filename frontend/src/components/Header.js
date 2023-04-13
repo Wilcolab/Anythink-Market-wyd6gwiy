@@ -57,7 +57,7 @@ class Header extends React.Component {
         style={{ padding: "0.5rem 2rem" }}
       >
         <Link to="/" className="navbar-brand">
-          <img alt="logo" src={logo} />
+          <img alt="logo" className="mw-full" src={logo} />
         </Link>
 
         {this.props.currentUser ? (
